@@ -6,7 +6,7 @@ function typeWriter(text, i) {
     i++;
     setTimeout(function(){
         typeWriter(text, i)
-    }, 500);
+    }, 300);
     
 }
 
@@ -17,6 +17,12 @@ $('#landingImage').mouseover(function(e) {
 
   let text = "I'm a full stack developer";
   typeWriter(text, 0);
+})
+  
+$('#myForm').on('submit', function(e){
+  $('#myModal').modal('show');
+  e.preventDefault();
+
   
 });
 

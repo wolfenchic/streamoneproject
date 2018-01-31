@@ -15,7 +15,7 @@ body {
     padding-top: 10px;
 }
 .banner {
-            background: url(./images/newlanding.jpeg);
+            background: url(./images/newlanding.jpg);
             background-size: cover;
             z-index: 1;
             -webkit-filter: brightness(80%);
@@ -28,10 +28,7 @@ text-align: center;
 color: white;
 margin-top: 0px;
 
-
 }
-
-
 
 .landingText {
     position: absolute;
@@ -116,13 +113,26 @@ margin-top: 0px;
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
+            
 }
 
+#myForm {
+    opacity: 0.5;
+}
 
-/*	@media screen and (min-width: 700px){
-	    
-	    .landingText {
-	        font-size: 5rem;
-	        margin-right: 40px;
-	    }
-	}*/
+.modal-content{
+    background-image:url(./images/envelope4.jpg);
+    background-size: cover;
+    -webkit-filter: hue-rotate(50deg);
+}
+
+#myModal {
+    text-align: center;
+    height: 300px;
+    color: white;
+    font-size: 2rem;
+}
+
+.modal-title {
+    font-size: 3rem;
+}
