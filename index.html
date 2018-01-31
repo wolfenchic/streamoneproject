@@ -30,7 +30,7 @@
          <li><a href="#landingImage" class="nav-link">Home</a></li>
          <li><a href="#aboutMe" class="nav-link">About</a></li>
          <li><a href="#skills">Services</a></li>
-         <li><a href="#">Portfolio</a></li>
+         <li><a href="#portfolio">Portfolio</a></li>
          <li><a href="#contact">Contact</a></li>
       </ul>
 
@@ -44,8 +44,9 @@
     <div class="container-fluid">
     <div class="row max-viewport align-items-center">
     <div class="col-12">
-    <div class="row ddn-full-width">
-    <img class="banner"  src="./images/newlanding.jpg" alt="banner"></img>
+    <div class="row">
+    <!--<div class="row ddn-full-width">-->
+    <img class="img-responsive banner"  src="./images/landingFinal.jpeg" alt="banner"></img>
     <article class="landing">
         <p class="landingText">Hi, I'm Nichola.<!--I do websites.I do user engagement strategy.I do analytics and insights.--></p>
         </article>
@@ -56,7 +57,7 @@
     </div>
 </section>
 
-
+<br><br>
 <section id="aboutMe">
 <div class="container-fluid">
     <div class="row headingSection">
@@ -74,7 +75,7 @@
     
     <div class="col-lg-4 col-sm-4 col-xs-10">
     <div class="imageContainer">
-    <img class="aboutImage" src="./images/metransp.png"></img>
+    <img class="img-responsive aboutImage" src="./images/meAbstract1.png"></img>
     </div>
     </div>
 
@@ -100,7 +101,7 @@
         <div class="card">
             <i class="fa fa-paint-brush fa-5x icon" aria-hidden="true"></i>
                 <h3 class="card-title">Web Design</h3>
-                <p class="cardText"><br>Beautiful and user-focused design is a top priority. Create memorable online experiences for your customers.</p>
+                <p class="card-text"><br>Beautiful and user-focused design is a top priority. Create memorable online experiences for your customers.</p>
         </div>
     </div>
     <div class="col-lg-4 col-sm-4 col-xs-10 text-center mb-3">    
@@ -114,7 +115,7 @@
         <div class="card">
              <i class="fa fa-line-chart fa-5x icon" aria-hidden="true"></i>
                 <h3 class="card-title">Analytics and Insights </h3>
-                <p class="card-text"><br>Use data to build meaningful insights which inform your business decision-making.</p>
+                <p class="card-text"><br>Use data to build meaningful insights which inform your business decision-making. Use data to max your ROI.</p>
             </div>
         </div>
  
@@ -126,7 +127,7 @@
 </div>
 </div>
 </section>
-
+<br><br>
 <section id="portfolio">
 <div class="container-fluid">
     <div class="row headingSection">
@@ -146,11 +147,10 @@
     <div class="imageContainer">
     <a href="https://www.pexels.com/u/scottwebb/">
     <div class="portfolioImageText"><p>Scott Webb<p><h3>Click to view</h3></div>
-    <img class="portfolioImage" src="./images/ScottWebb.jpeg"></img>
-    <a/>
+    <img class="img-responsive portfolioImage" src="./images/ScottWebb.jpeg"></img>
+    </a>
     </div>
     </div>
-
 </div>
 </div>
 </div>
@@ -162,19 +162,17 @@
  <section id="contact" class="p-5 bg-dark">
         <div class="container">
             <div class="row">
-                <div class="col-12 text-center mb-3">
+                <img class="img-responsve contactImage" src="./images/cactus.jpeg"></img>
+                <div class="col-12 text-center">
                     <h1 class="formHeader">Got a project in mind?</h1>
                     <br>
                     <p class="formText">Let's work together</p>
-                    <br>
-                    <form id="myForm" onsubmit="openModal()" action="http://formspree.io/vietnamezul@gmail.com" method="POST" style="max-width: 600px; margin: 0 auto;">
+                   <br>
+                    <form id="myForm" onsubmit="openModal()" action="http://formspree.io/wolfe.nichola@gmail.com" method="POST" style="max-width: 600px; margin: 0 auto;">
                         <div class="form-group"><input class="form-control" name="email" required="" type="email" autofocus placeholder="Your email *"></div>
                         <div class="form-group"><input class="form-control mt-3" name="name" type="text" placeholder="Your name"></div>
                          <div class="form-group"><input class="form-control mt-3" name="telephone" type="tel" placeholder="Your telephone"></div>
                          <div class="form-group"><input class="form-control mt-3" name="information" type="information" placeholder="How did you find me"></div>
-                        
-                    
-
                         <div class="form-group"><textarea class="form-control" name="message" rows="12" placeholder="Your message"></textarea></div>
                         <button type="submit" class="btn btn-primary">Submit</button>
                     </form>
@@ -198,10 +196,41 @@
       </div>
     </div>
   </div>
+ </div>
+</div> 
 </article>
     </section>
-</div>
-</div>   
+ 
+
+<section id="Footer">
+    <footer class="myFooter">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <h3>Contact</h3>
+                    <p>
+                       <p>Nichola Wolfe</p>
+                        <p>0873944948</p>
+                        <p>wolfe.nichola@gmail.com</p>
+                    </p>
+                </div>
+                <div class="col-sm-4">
+                    <h3>Resume</h3>
+                    <a href="NicWolfeCV.pdf"
+                        <p>Downloadable CV</p></a>
+                </div>
+                <div class="col-sm-4">
+                <h2 class="footerLogo">Nichola Wolfe</h2>
+                <div class="social-icons">
+                    <a href="#" class="linkedin"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
+    
+                </div>
+            </div>
+        </div>
+                
+    
+    </footer>
+</section>
     
     <script src="https://code.jquery.com/jquery.min.js"></script>
     <script src="javascript/script.js"></script>
