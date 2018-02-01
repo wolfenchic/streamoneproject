@@ -10,37 +10,40 @@ function typeWriter(text, i) {
 }
 }
 
-typeWriter("I am a full stack developer", 0);
+typeWriter("Hi, my name is Nichola. I'm a full stack developer", 0);
 
-// $('#landingImage').mouseenter(function(e) {
-//   let text = "I'm a full stack developer";
-//   typeWriter(text, 0);
-// });
-
-/*$('#landingImage').mouseout(function(e){
-    e.stopImmediatePropagation();
-});
-
-$('#landingImage').hover(function(e){
-    e.stopImmediatePropagation();
-});*/
-
- /*$('#landingImage').mouseenter(function(){
-        $("#landingImage").typed({
-            strings: ["I'm a full stack developer.", "Second sentence."],
-            typeSpeed: 0
-        });
-    });*/
   
 $('#myForm').on('submit', function(e){
   $('#myModal').modal('show');
   e.preventDefault();
 
+ });
   
+$('a').mouseenter(function() {
+ 	$(this).css("color", "#C3AEAF");
+ });
+
+$('a').mouseleave(function(){
+    $(this).css("color", "#4a4a4f");
 });
 
-})
+$(".card").mouseenter(function(){
+    $(this).animate({opacity: '1.0'}, "slow");
+});
 
-//  e.stopImmediatePropagation();
+$(".card").mouseleave(function(){
+    $(this).animate({opacity: '0.6'}, "slow");
+});
+
+$(".imageContainer").hover(function (){
+    $('.portfolioImage').attr("src", "./images/scottWebb2.jpeg");
+}, function () {
+    $('.portfolioImage').attr("src", "./images/ScottWebb.jpeg");
+});
+
+
+});
+
+
 
 

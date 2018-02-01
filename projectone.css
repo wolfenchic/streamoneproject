@@ -32,10 +32,12 @@ margin-top: 0px;
 
 .landingText {
     position: absolute;
+    margin: auto;
+    top: 20%; left: 0; bottom: 0; right: 0;
 	font-family: 'Karla', sans-serif;
 	border-right: .1em solid white;
-	top: 20%;
-    left: 10%;
+	/*top: 20%;
+    left: 10%;*/
     font-size: 5rem;
 }
 
@@ -130,14 +132,14 @@ margin-top: 0px;
 
 
 .portfolioImageText {
+    margin: auto;
     position: absolute;
+    top: 10%; left: 0; bottom: 0; right: 0;
     font-family: 'Karla', sans-serif;
-	top: 25%;
-    left: 25%;
     font-size: 5rem;
     color: white;
     text-align: center;
-    border: double 2px white;
+    border: double white;
     
 
 }
@@ -193,4 +195,11 @@ margin-top: 0px;
     font-family: 'Karla', sans-serif;
     font-size: 4rem;
     color: #4a4a4f;
+}
+
+@media only screen and (max-width: 500px) {
+    .landingText {
+        font-size: 2rem;
+    }
+
 }
