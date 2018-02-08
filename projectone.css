@@ -143,10 +143,6 @@ margin-top: 0px;
     
 }
    
-
-
-
-
 #contact {
             background: url(./images/cactus.jpeg);
             background-attachment: fixed;
@@ -154,12 +150,16 @@ margin-top: 0px;
             background-repeat: no-repeat;
             background-size: cover;
             color: #4a4a4f;
+            width: 100%;
+            height: auto;
+
             
 }
 
 #myForm {
     opacity: 0.5;
 }
+
 
 .formText {
     font-size: 2rem;
@@ -209,4 +209,12 @@ margin-top: 0px;
     .portfolioImageText {
         font-size: 2rem;
     }
+}
+
+@media only screen and (max-width: 400px){
+     #contact {
+   width: 100%;
+    max-width: 400px;
+    height: auto;
+}
 }
