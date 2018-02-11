@@ -7,6 +7,7 @@ body {
     font-size: 4rem;
 }
 
+
 .newbg {
     background-color: white; 
     font-family: 'Karla', sans-serif;
@@ -59,6 +60,13 @@ margin-top: 0px;
     background-color: white;
     font-size: 2rem;
     margin-left: 20px;
+}
+
+.resumeButton {
+    background-color: #C3AEAF;
+    border-color: #C3AEAF;
+    font-size: 2rem;
+    color: white;
 }
 
 

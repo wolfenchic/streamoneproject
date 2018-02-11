@@ -35,6 +35,14 @@ $(".card").mouseleave(function(){
     $(this).animate({opacity: '0.6'}, "slow");
 });
 
+$(".resumeButton").mouseenter(function(){
+    $(this).css("background-color", "#4a4a4f");
+});
+
+$(".resumeButton").mouseleave(function(){
+    $(this).css("background-color", "#C3AEAF");
+});
+
 $(".imageContainer").hover(function (){
     $('.portfolioImage').attr("src", "./images/scottWebb2.jpeg");
 }, function () {

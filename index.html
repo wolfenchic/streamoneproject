@@ -28,14 +28,18 @@
           </button>
       </div>  
       <ul id="myMenu" class="nav navbar-nav navbar-right collapse navbar-collapse">
-         <li><a href="#myMenu" class="nav-link">Home</a></li>
-         <li><a href="#aboutMe" class="nav-link">About</a></li>
+         <li><a href="#myMenu" class="nav-link">Home</a>
          <li><a href="#skills">Services</a></li>
          <li><a href="#portfolio">Portfolio</a></li>
          <li><a href="#contact">Contact</a></li>
-      </ul>
-
-    </div>
+        <li><a href="#aboutMe" class="dropdown-toggle" data-toggle="dropdown">About Me<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#aboutMe">Bio</a></li>
+                <li><a href="#resumeSection">Resume</a></li>
+            </ul>
+            </li>
+            </ul>
+        </div>
     </nav>
 </section>
 
@@ -135,13 +139,15 @@
     <h1 class="sectionHeading subHead">My portfolio and inspiration</h1>
     <hr>
 
+<div id="resumeSection">
 <div class="row">
 <div class="col-xs-10 col-sm-8 col-lg-8">
     <h2>Resume</h2>
      <p class="portfolioText"><br>If you're interested in collaborating or would like to discuss an opportunity with me you may be interested in taking a look at my resume.</p>
-     <a href="myCv.pdf"><button type="View My Resume" class="btn btn-primary">View My Resume</button></a>
+     <a href="myCv.pdf"><button type="View My Resume" class="btn btn-primary resumeButton">View My Resume</button></a>
     </div>
     </div>
+</div>
     <hr>
 
 
