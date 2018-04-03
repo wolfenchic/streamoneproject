@@ -45,6 +45,7 @@ margin-top: 0px;
     height: 350px;
     background-image:url(./images/meAbstract1.png);
     -webkit-filter: hue-rotate(350deg);
+    
 }
 
 .headingSection {
@@ -150,7 +151,7 @@ margin-top: 0px;
 }
    
 #contact {
-            background: url(./images/cactus.jpeg);
+            background: url(./images/contactBook.jpeg);
             background-attachment: fixed;
             background-position: center;
             background-repeat: no-repeat;
@@ -158,18 +159,31 @@ margin-top: 0px;
             color: #4a4a4f;
             width: 100%;
             height: auto;
+            -webkit-filter: hue-rotate(60deg);
+            opacity: 0.7;
 
             
 }
 
 #myForm {
-    opacity: 0.5;
+    /*opacity: 0.5;*/
+    padding-bottom: 20px;
 }
 
 
 .formText {
     font-size: 2rem;
-    color: #4a4a4f
+    color: white;
+}
+
+.formHeader {
+    color: white;
+}
+
+.contactButton {
+    background-color: white;
+    color: #4a4a4f;
+    border-color: white;
 }
 
 .modal-content{
