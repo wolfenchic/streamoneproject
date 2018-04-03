@@ -49,7 +49,7 @@ $(".imageContainer").hover(function (){
     $('.portfolioImage').attr("src", "./images/ScottWebb.jpeg");
 });
 
-$(".imageContainer").onmousestart(function (){
+$(".imageContainer").onmouseenter(function (){
     $('.portfolioImage').attr("src", "./images/scottWebb2.jpeg");
 }, function () {
     $('.portfolioImage').attr("src", "./images/ScottWebb.jpeg");
