@@ -61,13 +61,18 @@ margin-top: 0px;
     margin-left: 20px;
 }
 
-.resumeButton {
+.resumeButton, .contactButton {
     background-color: #C3AEAF;
     border-color: #C3AEAF;
     font-size: 2rem;
     color: white;
 }
-
+.contactButton {
+    background-color: #EA615B;
+    border-color: #EA615B;
+    font-size: 2rem;
+    color: #EA615B;
+}
 
 
 #skills {
@@ -151,7 +156,7 @@ margin-top: 0px;
 }
    
 #contact {
-            background: url(./images/contactBook.jpeg);
+            background: url(./images/phone.jpg);
             background-attachment: fixed;
             background-position: center;
             background-repeat: no-repeat;
@@ -159,7 +164,7 @@ margin-top: 0px;
             color: #4a4a4f;
             width: 100%;
             height: auto;
-            -webkit-filter: hue-rotate(60deg);
+            /*-webkit-filter: hue-rotate(300deg);*/
             opacity: 0.7;
 
             
@@ -173,11 +178,11 @@ margin-top: 0px;
 
 .formText {
     font-size: 2rem;
-    color: white;
+    color: #4a4a4f;
 }
 
 .formHeader {
-    color: white;
+    color: #4a4a4f;
 }
 
 .contactButton {
