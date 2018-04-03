@@ -28,17 +28,21 @@
           </button>
       </div>  
       <ul id="myMenu" class="nav navbar-nav navbar-right collapse navbar-collapse">
-         <li><a href="#myMenu" class="nav-link">Home</a>
+         <li><a href="#myMenu" class="nav-link">Home</a></li>
          <li><a href="#skills">Services</a></li>
          <li><a href="#portfolio">Portfolio</a></li>
          <li><a href="#contact">Contact</a></li>
-        <li><a href="#aboutMe" class="dropdown-toggle" data-toggle="dropdown">About Me<b class="caret"></b></a>
+        <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#aboutMe">About Me
+        <span class="caret"></span></a>
               <ul class="dropdown-menu">
                 <li><a href="#aboutMe">Bio</a></li>
                 <li><a href="#resumeSection">Resume</a></li>
             </ul>
             </li>
+           
             </ul>
+        
         </div>
     </nav>
 </section>
@@ -144,7 +148,7 @@
 <div class="col-xs-10 col-sm-8 col-lg-8">
     <h2>Resume</h2>
      <p class="portfolioText"><br>If you're interested in collaborating or would like to discuss an opportunity with me you may be interested in taking a look at my resume.</p>
-     <a href="myCv.pdf"><button type="View My Resume" class="btn btn-primary resumeButton">View My Resume</button></a>
+     <a href="NicWcv.pdf"><button type="View My Resume" class="btn btn-primary resumeButton">View My Resume</button></a>
     </div>
     </div>
 </div>
@@ -174,9 +178,10 @@
 </section>
 
  <section id="contact" class="p-5 bg-dark">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-12 text-center">
+                <div class="col-lg-12 col-sm-4 col-xs-12 text-center">
+                    
                     <h1 class="formHeader">Got a project in mind?</h1>
                     <br>
                     <p class="formText">Let's work together</p>
@@ -190,8 +195,9 @@
                         <button type="submit" class="btn btn-primary">Submit</button>
                     </form>
                 </div>
+                </div>
             </div>
-        </div>
+        
 
     
 <article class="modal fade" tabindex="-1" role="dialog" id="myModal">

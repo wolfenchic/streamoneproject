@@ -6,7 +6,7 @@ function typeWriter(text, i) {
     i++;
     setTimeout(function(){
         typeWriter(text, i);
-    }, 300);
+    }, 200);
 }
 }
 

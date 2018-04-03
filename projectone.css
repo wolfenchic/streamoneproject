@@ -16,7 +16,6 @@ body {
     padding-top: 10px;
 }
 .banner {
-            background: url(./images/landingBack.jpeg);
             background-size: cover;
             z-index: 1;
             -webkit-filter: brightness(80%);
@@ -36,7 +35,6 @@ margin-top: 0px;
     margin: auto;
     top: 20%; left: 0; bottom: 0; right: 0;
 	font-family: 'Karla', sans-serif;
-	border-right: .1em solid white;
 	/*top: 20%;
     left: 10%;*/
     font-size: 5rem;
