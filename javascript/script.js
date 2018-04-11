@@ -51,17 +51,17 @@ $(".contactButton").mouseleave(function(){
     $(this).css("background-color", "#EA615B");
 });
 
-$(".imageContainer").hover(function (){
-    $('.portfolioImage').attr("src", "./images/scottWebb2.jpeg");
-}, function () {
-    $('.portfolioImage').attr("src", "./images/ScottWebb.jpeg");
-});
+// $(".imageContainer").hover(function (){
+//     $('.portfolioImage').attr("src", "./images/scottWebb2.jpeg");
+// }, function () {
+//     $('.portfolioImage').attr("src", "./images/ScottWebb.jpeg");
+// });
 
-$(".imageContainer").mouseenter(function (){
-    $('.portfolioImage').attr("src", "./images/scottWebb2.jpeg");
-}, function () {
-    $('.portfolioImage').attr("src", "./images/ScottWebb.jpeg");
-});
+// $(".imageContainer").mouseenter(function (){
+//     $('.portfolioImage').attr("src", "./images/scottWebb2.jpeg");
+// }, function () {
+//     $('.portfolioImage').attr("src", "./images/ScottWebb.jpeg");
+// });
 
 
 
