@@ -106,11 +106,17 @@ margin-top: 0px;
 .card {
     padding: 20px 20px 20px 20px;
     padding-bottom: 40px;
-    background-color: #EFEBEA;
-    opacity: .6;
-    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 1.0), 0 6px 60px 0 rgba(0, 0, 0, 0.50);
-    
+    background-color: white;
+    color: #4a4a4f;
+    /*background-color: #EFEBEA;*/
+    opacity: .8;
+    /*border: 1px solid #4a4a4f;*/
 
+
+}
+
+.icon {
+    color: black;
 }
 
 .card-text {
@@ -125,7 +131,7 @@ margin-top: 0px;
 
 
 .icon {
-    color: white;
+    color: #4a4a4f;
 }
 
 #portfolio {
