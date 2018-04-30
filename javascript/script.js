@@ -35,12 +35,12 @@ $(".card").mouseleave(function(){
     $(this).animate({opacity: '0.6'}, "slow");
 });
 
-$(".resumeButton").mouseenter(function(){
-    $(this).css("background-color", "#4a4a4f");
+$(".fa-linkedin, .fa-github, .fa-file").mouseenter(function(){
+    $(this).css("color", "#4a4a4f");
 });
 
-$(".resumeButton").mouseleave(function(){
-    $(this).css("background-color", "#C3AEAF");
+$("..fa-linkedin, .fa-github, .fa-file").mouseleave(function(){
+    $(this).css("color", "#C3AEAF");
 });
 
 $(".contactButton").mouseenter(function(){
@@ -50,18 +50,6 @@ $(".contactButton").mouseenter(function(){
 $(".contactButton").mouseleave(function(){
     $(this).css("background-color", "#EA615B");
 });
-
-// $(".imageContainer").hover(function (){
-//     $('.portfolioImage').attr("src", "./images/scottWebb2.jpeg");
-// }, function () {
-//     $('.portfolioImage').attr("src", "./images/ScottWebb.jpeg");
-// });
-
-// $(".imageContainer").mouseenter(function (){
-//     $('.portfolioImage').attr("src", "./images/scottWebb2.jpeg");
-// }, function () {
-//     $('.portfolioImage').attr("src", "./images/ScottWebb.jpeg");
-// });
 
 
 

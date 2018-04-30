@@ -229,6 +229,13 @@ margin-top: 0px;
     color: #4a4a4f;
 }
 
+.fa-linkedin, .fa-github, .fa-file{
+    color: #C3AEAF;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-top: 30px;
+}
+
 @media only screen and (max-width: 500px) {
     .landingText {
         font-size: 2rem;
