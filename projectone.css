@@ -212,6 +212,8 @@ margin-top: 0px;
 .blogsectionHeading, .wordsQuote { 
     color: #c18ba9;
     padding-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 #Footer {
