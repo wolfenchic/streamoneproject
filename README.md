@@ -71,4 +71,4 @@ This website was built using a Bootstrap framework. The site is a one page scrol
 ### Information
 - The information displayed on this site, in particular on the Services section, reflects skills that I have developed throughout my career and which I am confident in offering as paid services for prospective clients. 
 
- 
+ # portfolio
