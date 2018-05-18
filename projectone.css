@@ -151,16 +151,6 @@ margin-top: 0px;
     
 }
 
-/*.zoodleportfolioImageText {*/
-/*    margin: auto;*/
-/*    position: absolute;*/
-/*    top: 20%; left: 0; bottom: 0; right: 0;*/
-/*    font-family: 'Karla', sans-serif;*/
-/*    font-size: 4rem;*/
-/*    color: #5EBE8A;*/
-/*    text-align: center;*/
-    
-/*}*/
 
    
 #contact {
@@ -256,14 +246,14 @@ margin-top: 0px;
 }
 
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 768px) {
     .landingText {
         font-size: 2rem;
     }
 
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 768px) {
     .portfolioImageText {
         font-size: 2rem;
         margin: auto;
