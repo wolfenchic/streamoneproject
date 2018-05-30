@@ -248,6 +248,10 @@ margin-top: 0px;
      color: #C3AEAF;
 }
 
+.testimonial {
+    font-size: 1.7rem;
+    color: #BA7F7E;
+}
 
 @media only screen and (max-width: 768px) {
     .landingText {
