@@ -344,8 +344,10 @@ margin-top: 0px;
     color: #4a4a4f;
     text-align: center;
     opacity: 1.0;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    /*padding-top: 20px;*/
+    /*padding-bottom: 20px;*/
+    padding: 20px;
+    margin: 20px;
     
 }
 
@@ -353,6 +355,7 @@ margin-top: 0px;
    background-image:none !important;
    filter:none !important;
    color: #E35D5B;
+   margin: 10px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -366,5 +369,12 @@ margin-top: 0px;
     .portfolioImageText {
         font-size: 2rem;
         margin: auto;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .carousel1, .carousel2, .carousel3 {
+        font-size: 1.5rem;
+      
     }
 }
