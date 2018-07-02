@@ -27,11 +27,11 @@ $('a').mouseleave(function(){
     $(this).css("color", "#4a4a4f");
 });
 
-$(".card").mouseenter(function(){
+$(".skillCard").mouseenter(function(){
     $(this).animate({opacity: '1.0'}, "slow");
 });
 
-$(".card").mouseleave(function(){
+$(".skillCard").mouseleave(function(){
     $(this).animate({opacity: '0.6'}, "slow");
 });
 
@@ -39,7 +39,7 @@ $(".fa-linkedin, .fa-github, .fa-file").mouseenter(function(){
     $(this).css("color", "#4a4a4f");
 });
 
-$("..fa-linkedin, .fa-github, .fa-file").mouseleave(function(){
+$(".fa-linkedin, .fa-github, .fa-file").mouseleave(function(){
     $(this).css("color", "#C3AEAF");
 });
 

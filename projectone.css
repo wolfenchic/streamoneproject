@@ -154,6 +154,64 @@ margin-top: 0px;
     
 }
 
+.portfolioCard1 {
+    background-image: url(./images/CharcuterieBoard.jpeg);
+    padding: 30px;
+    opacity: 1.0;
+}
+
+.portfolioCard2 {
+    background-image: url(./images/pencils.jpeg);
+    padding: 30px;
+    opacity: 1.0;
+    
+}
+
+.portfolioCard3 {
+    background-image: url(./images/wheel.jpg);
+    padding: 30px;
+    opacity: 1.0;
+}
+
+.portfolioCard4 {
+    background-image: url(./images/justitia.jpg);
+    padding: 30px;
+    opacity: 1.0;
+}
+
+.portfolioCard5 {
+    background-image: url(./images/globe.jpeg);
+    padding: 30px;
+    opacity: 1.0;
+}
+
+.portfolioCard6 {
+    background-image: url(./images/burger.jpeg);
+    padding: 30px;
+    opacity: 1.0;
+}
+.cardTitle{
+    color: white;
+    text-align: center;
+    font-size: 4rem;
+    /*vertical-align: middle;*/
+    margin:auto;
+    margin-top: 30px;
+}
+
+.postButton {
+    background-color: #EB9431;
+    color: white;
+    border-color:  #EB9431;
+    padding: 10px;
+    font-size: 1.7rem;
+    margin-bottom: 20px;
+}
+
+.gitLogo {
+    margin: auto;
+    margin-bottom: 30px;
+}
 
    
 #contact {
@@ -244,6 +302,11 @@ margin-top: 0px;
     margin: 20px 20px 20px 20px;
 }
 
+.Github2 {
+    color: white;
+    margin: auto;
+    padding: 10px;
+}
 .footerIcons {
      color: #C3AEAF;
 }
