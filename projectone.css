@@ -316,6 +316,45 @@ margin-top: 0px;
     color: #BA7F7E;
 }
 
+#Testimonials {
+    background-color: white;
+    color: #4a4a4f;
+}
+
+.carouselRow{
+   padding-top: 20px;
+   padding-bottom: 20px;
+   margin-bottom: 20px;
+   
+    
+}
+
+.carousel1 {
+    opacity: 0.8;
+    font-size: 2rem;
+    color: #4a4a4f;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    opacity: 1.0;
+}
+
+.carousel2, .carousel3 {
+    font-size: 2rem;
+    color: #4a4a4f;
+    text-align: center;
+    opacity: 1.0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.carousel-control.left, .carousel-control.right {
+   background-image:none !important;
+   filter:none !important;
+   color: #E35D5B;
+}
+
 @media only screen and (max-width: 768px) {
     .landingText, .cardTitle {
         font-size: 2rem;
