@@ -158,12 +158,20 @@ margin-top: 0px;
     background-image: url(./images/CharcuterieBoard.jpeg);
     padding: 30px;
     opacity: 1.0;
+    width: 100%;
+    height: 320px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
 }
 
 .portfolioCard2 {
     background-image: url(./images/pencils.jpeg);
     padding: 30px;
     opacity: 1.0;
+    width: 100%;
+    height: 320px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
     
 }
 
@@ -171,24 +179,40 @@ margin-top: 0px;
     background-image: url(./images/wheel.jpg);
     padding: 30px;
     opacity: 1.0;
+    width: 100%;
+    height: 320px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
 }
 
 .portfolioCard4 {
     background-image: url(./images/justitia.jpg);
     padding: 30px;
     opacity: 1.0;
+    width: 100%;
+    height: 320px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
 }
 
 .portfolioCard5 {
     background-image: url(./images/globe.jpeg);
     padding: 30px;
     opacity: 1.0;
+    width: 100%;
+    height: 320px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
 }
 
 .portfolioCard6 {
     background-image: url(./images/burger.jpeg);
     padding: 30px;
     opacity: 1.0;
+    width: 100%;
+    height: 320px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
 }
 .cardTitle{
     color: white;

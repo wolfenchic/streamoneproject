@@ -35,6 +35,17 @@ $(".skillCard").mouseleave(function(){
     $(this).animate({opacity: '0.6'}, "slow");
 });
 
+
+$(".portfolioCard6, .portfolioCard5, .portfolioCard4, .portfolioCard3, .portfolioCard2, .portfolioCard1").mouseenter(function(){
+    $(this).css("box-shadow", "10px 10px 5px grey");
+    
+});
+
+$(".portfolioCard6, .portfolioCard5, .portfolioCard4, .portfolioCard3, .portfolioCard2, .portfolioCard1").mouseleave(function(){
+     $(this).css("box-shadow", "none");
+   
+});
+
 $(".fa-linkedin, .fa-github, .fa-file").mouseenter(function(){
     $(this).css("color", "#4a4a4f");
 });
