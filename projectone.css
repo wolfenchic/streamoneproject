@@ -214,6 +214,16 @@ margin-top: 0px;
     box-sizing: border-box;
     margin-bottom: 20px;
 }
+
+.portfolioCard7 {
+    background-image: url(./images/celebration.jpg);
+    padding: 30px;
+    opacity: 1.0;
+    width: 100%;
+    height: 320px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
 .cardTitle{
     color: white;
     text-align: center;

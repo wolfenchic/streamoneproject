@@ -36,12 +36,12 @@ $(".skillCard").mouseleave(function(){
 });
 
 
-$(".portfolioCard6, .portfolioCard5, .portfolioCard4, .portfolioCard3, .portfolioCard2, .portfolioCard1").mouseenter(function(){
+$(".portfolioCard7, .portfolioCard6, .portfolioCard5, .portfolioCard4, .portfolioCard3, .portfolioCard2, .portfolioCard1").mouseenter(function(){
     $(this).css("box-shadow", "10px 10px 5px grey");
     
 });
 
-$(".portfolioCard6, .portfolioCard5, .portfolioCard4, .portfolioCard3, .portfolioCard2, .portfolioCard1").mouseleave(function(){
+$(".portfolioCard7, .portfolioCard6, .portfolioCard5, .portfolioCard4, .portfolioCard3, .portfolioCard2, .portfolioCard1").mouseleave(function(){
      $(this).css("box-shadow", "none");
    
 });
