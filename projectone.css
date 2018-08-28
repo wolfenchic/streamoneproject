@@ -162,6 +162,8 @@ margin-top: 0px;
     height: 320px;
     box-sizing: border-box;
     margin-bottom: 20px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    border-radius: 8px;
 }
 
 .portfolioCard2 {
@@ -172,7 +174,8 @@ margin-top: 0px;
     height: 320px;
     box-sizing: border-box;
     margin-bottom: 20px;
-    
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    border-radius: 8px;
 }
 
 .portfolioCard3 {
@@ -183,6 +186,8 @@ margin-top: 0px;
     height: 320px;
     box-sizing: border-box;
     margin-bottom: 20px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    border-radius: 8px;
 }
 
 .portfolioCard4 {
@@ -193,6 +198,8 @@ margin-top: 0px;
     height: 320px;
     box-sizing: border-box;
     margin-bottom: 20px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    border-radius: 8px;
 }
 
 .portfolioCard5 {
@@ -203,6 +210,8 @@ margin-top: 0px;
     height: 320px;
     box-sizing: border-box;
     margin-bottom: 20px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    border-radius: 8px;
 }
 
 .portfolioCard6 {
@@ -213,6 +222,8 @@ margin-top: 0px;
     height: 320px;
     box-sizing: border-box;
     margin-bottom: 20px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    border-radius: 8px;
 }
 
 .portfolioCard7 {
@@ -223,6 +234,8 @@ margin-top: 0px;
     height: 320px;
     box-sizing: border-box;
     margin-bottom: 20px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    border-radius: 8px;
 }
 .cardTitle{
     color: white;
