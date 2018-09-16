@@ -234,8 +234,7 @@ margin-top: 0px;
     height: 320px;
     box-sizing: border-box;
     margin-bottom: 20px;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-    border-radius: 8px;
+
 }
 .cardTitle{
     color: white;
@@ -324,6 +323,13 @@ margin-top: 0px;
     padding-bottom: 20px;
     margin-left: 10px;
     margin-right: 10px;
+}
+
+#butler {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    font-size: 1.7rem;
+    line-height: 2.0;
 }
 
 #Footer {
