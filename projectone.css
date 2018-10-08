@@ -1,5 +1,9 @@
 body {
-           font-family: 'Karla', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    font-size: 1.7rem;
+    line-height: 2.0;
+
 }
 
 .navbar-brand {
@@ -18,7 +22,6 @@ body {
 .banner {
             background-size: cover;
             z-index: 1;
-            -webkit-filter: brightness(80%);
             
 }
 
@@ -33,11 +36,11 @@ margin-top: 0px;
 .landingText {
     position: absolute;
     margin: auto;
-    top: 20%; left: 0; bottom: 0; right: 0;
-	font-family: 'Karla', sans-serif;
-	/*top: 20%;
-    left: 10%;*/
-    font-size: 5rem;
+    top: 35%; left: 35%; bottom: 0; right: 0;
+	font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    /*font-size: 2rem;*/
+    /*line-height: 2.0;*/
 }
 
 
@@ -52,19 +55,25 @@ margin-top: 0px;
     background-color: white;
     font-size: 2rem;
     margin-left: 20px;
+    padding-right: 20px;
+}
+
+.aboutImage {
+    -webkit-filter: grayscale(100%) brightness(160%);
+    padding-left: 20px;
 }
 
 .resumeButton, .contactButton {
-    background-color: #C3AEAF;
-    border-color: #C3AEAF;
+    background-color: #92F9E4;
+    border-color: #92F9E4;
     font-size: 2rem;
     color: white;
 }
 .contactButton {
-    background-color: #EA615B;
-    border-color: #EA615B;
+    background-color: #92F9E4;
+    border-color: #92F9E4;
     font-size: 2rem;
-    color: #EA615B;
+    color: #92F9E4;
 }
 
 
@@ -234,8 +243,30 @@ margin-top: 0px;
     height: 320px;
     box-sizing: border-box;
     margin-bottom: 20px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    border-radius: 8px;
 
 }
+
+.portfolioCard8 {
+    background-image: url(./images/gift.jpeg);
+    padding: 30px;
+    opacity: 1.0;
+    width: 100%;
+    height: 320px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    border-radius: 8px;
+}
+
+.portfolioCard8:hover, .portfolioCard7:hover, .portfolioCard6:hover, 
+.portfolioCard5:hover, .portfolioCard4:hover, .portfolioCard3:hover, 
+.portfolioCard2:hover, .portfolioCard1:hover{
+    -webkit-transform: scale(1.1);
+} 
+
+
 .cardTitle{
     color: white;
     text-align: center;
@@ -246,9 +277,9 @@ margin-top: 0px;
 }
 
 .postButton {
-    background-color: #EB9431;
+    background-color: #92F9E4;
     color: white;
-    border-color:  #EB9431;
+    border-color:  #92F9E4;
     padding: 10px;
     font-size: 1.7rem;
     margin-bottom: 20px;
@@ -348,7 +379,7 @@ margin-top: 0px;
 }
 
 .fa-linkedin, .fa-github, .fa-file{
-    color: #C3AEAF;
+    color: #92F9E4;
     padding-left: 10px;
     padding-right: 20px;
     padding-top: 30px;
@@ -361,12 +392,12 @@ margin-top: 0px;
     padding: 10px;
 }
 .footerIcons {
-     color: #C3AEAF;
+     color: #92F9E4;
 }
 
 .testimonial {
     font-size: 1.7rem;
-    color: #BA7F7E;
+    color: #5EC5C4;
 }
 
 #Testimonials {
@@ -407,13 +438,15 @@ margin-top: 0px;
 .carousel-control.left, .carousel-control.right {
    background-image:none !important;
    filter:none !important;
-   color: #E35D5B;
+   color: #92F9E4;
    margin: 10px;
 }
 
 @media only screen and (max-width: 768px) {
     .landingText, .cardTitle {
-        font-size: 2rem;
+        font-size: 1.2rem;
+        margin: auto;
+        top: 35%; left: 30%; bottom: 0; right: 0;
     }
 
 }

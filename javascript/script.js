@@ -6,11 +6,11 @@ function typeWriter(text, i) {
     i++;
     setTimeout(function(){
         typeWriter(text, i);
-    }, 200);
+    }, 100);
 }
 }
 
-typeWriter("Hi, my name is Nichola. I'm a full stack developer", 0);
+typeWriter("Hi, my name is Nichola.<br> I'm a full stack developer.", 0);
 
   
 $('#myForm').on('submit', function(e){
@@ -20,7 +20,7 @@ $('#myForm').on('submit', function(e){
  });
   
 $('a').mouseenter(function() {
- 	$(this).css("color", "#C3AEAF");
+ 	$(this).css("color", "#5EC5C4");
  });
 
 $('a').mouseleave(function(){
@@ -36,30 +36,21 @@ $(".skillCard").mouseleave(function(){
 });
 
 
-// $(".portfolioCard7, .portfolioCard6, .portfolioCard5, .portfolioCard4, .portfolioCard3, .portfolioCard2").mouseenter(function(){
-//     $(this).css("box-shadow", "10px 10px 5px grey");
-    
-// });
-
-// $(".portfolioCard7, .portfolioCard6, .portfolioCard5, .portfolioCard4, .portfolioCard3, .portfolioCard2").mouseleave(function(){
-//      $(this).css("box-shadow", "none");
-   
-// });
 
 $(".fa-linkedin, .fa-github, .fa-file").mouseenter(function(){
     $(this).css("color", "#4a4a4f");
 });
 
 $(".fa-linkedin, .fa-github, .fa-file").mouseleave(function(){
-    $(this).css("color", "#C3AEAF");
+    $(this).css("color", "#5EC5C4");
 });
 
 $(".contactButton").mouseenter(function(){
-    $(this).css("background-color", "#EA615B");
+    $(this).css("background-color", "#5EC5C4");
 });
 
 $(".contactButton").mouseleave(function(){
-    $(this).css("background-color", "#EA615B");
+    $(this).css("background-color", "#5EC5C4");
 });
 
 
